@@ -375,3 +375,7 @@ footer {
     .pie .redes {
       display: flex;
       flex-direction: column; } }
+
+@media screen and (max-width: 1000px) {
+  .carousel {
+    width: 1000px; } }
