@@ -376,6 +376,6 @@ footer {
       display: flex;
       flex-direction: column; } }
 
-@media screen and (max-width: 1000px) {
+@media screen and (min-width: 1000px) {
   .carousel {
     width: 1000px; } }
