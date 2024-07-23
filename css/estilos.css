@@ -289,6 +289,10 @@ footer {
         border-radius: 10px;
         transition: all 1s; }
 
+@media screen and (min-width: 1000px) {
+  .slider {
+    width: 900px; } }
+
 @media screen and (max-width: 830px) {
   .mapeishon {
     width: 600px;
@@ -375,7 +379,3 @@ footer {
     .pie .redes {
       display: flex;
       flex-direction: column; } }
-
-@media screen and (min-width: 1000px) {
-  .carousel {
-    width: 1000px; } }
