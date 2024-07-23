@@ -12,19 +12,25 @@ header {
         a {
             color: black;
             font-size: 25px;
-
-            &:hover {
-                background-color: black;
-                color: white;
-                transition: all 1s;
-                border-radius: 10px;
-            }
         }
 
         .navbar-nav {
             width: 100%;
             display: flex;
             justify-content: space-evenly;
+
+            .nav-item {
+
+                a {
+                    &:hover {
+                        background-color: black;
+                        color: white;
+                        transition: all 1s;
+                        border-radius: 10px;
+                    }
+
+                }
+            }
         }
     }
 }
