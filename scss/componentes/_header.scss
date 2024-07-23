@@ -19,11 +19,13 @@ header {
             display: flex;
             justify-content: space-evenly;
 
-            &:hover {
-                background-color: black;
-                color: white;
-                transition: all 1s;
-                border-radius: 10px;
+            .nav-item {
+                &:hover {
+                    background-color: black;
+                    color: white;
+                    transition: all 1s;
+                    border-radius: 10px;
+                }
             }
         }
     }
