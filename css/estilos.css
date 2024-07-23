@@ -1,0 +1,405 @@
+/* aca se agregan los css generales a toda la pagina, link de fuentes, el reset de web, aplicacion al body, las cosas de bootstrap como los !important, las clases cosas aplicadas a clases especificas */
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'ubuntu', sans-serif; }
+  body a {
+    text-decoration-line: none; }
+
+.titulo {
+  text-align: center;
+  font-size: 40px;
+  color: gray;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 50px; }
+  .titulo img {
+    width: 170px;
+    height: 170px; }
+
+header {
+  background-color: rgba(164, 164, 164, 0.59);
+  width: 100%; }
+  header nav img {
+    width: 80px;
+    height: 90px;
+    border-radius: 20px; }
+  header nav a {
+    color: black;
+    font-size: 25px; }
+  header nav .navbar-nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly; }
+    header nav .navbar-nav:hover {
+      background-color: black;
+      color: white;
+      transition: all 1s;
+      border-radius: 10px; }
+
+.hero-title {
+  text-align: center;
+  font-size: 80px;
+  color: gray; }
+
+.slider {
+  width: 600px;
+  height: 400px;
+  margin: 50px auto 50px;
+  overflow: hidden; }
+  .slider ul {
+    display: flex;
+    padding: 0;
+    width: 100%;
+    animation: slide 20s infinite alternate ease-in-out; }
+    .slider ul li {
+      width: 100%;
+      height: auto;
+      list-style: none; }
+      .slider ul li a {
+        width: 100%; }
+
+/*keyframes del slider*/
+h2 {
+  text-align: center;
+  font-size: 30px;
+  color: gray;
+  padding: 10px;
+  margin: 30px; }
+
+.hacemos ul {
+  text-align: center;
+  list-style-type: circle;
+  list-style-position: inside;
+  font-size: x-large;
+  margin-bottom: 40px; }
+  .hacemos ul li a {
+    color: gray; }
+    .hacemos ul li a:hover {
+      background-color: black;
+      color: ghostwhite;
+      border-radius: 10px;
+      transition: all 1s; }
+
+.clickear {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: 20px; }
+  .clickear .zonas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap; }
+  .clickear .conoce {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap; }
+  .clickear h4 {
+    padding: 10px;
+    font-size: 25px; }
+  .clickear img {
+    width: 200px;
+    height: 200px;
+    margin: 10px; }
+  .clickear a {
+    background-color: grey;
+    border-color: grey;
+    margin-bottom: 100px; }
+    .clickear a:hover {
+      background-color: red;
+      border-color: red;
+      color: black;
+      transition: all 1s; }
+
+.titulo2 {
+  text-align: center;
+  font-size: x-large;
+  color: rgba(0, 0, 0, 0.717);
+  padding: 60px; }
+
+.fotos {
+  background-color: rgba(211, 211, 211, 0.783);
+  flex-wrap: wrap;
+  margin-bottom: 60px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 400px; }
+  .fotos img {
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    border-radius: 80px;
+    object-fit: cover; }
+  .fotos .img1 {
+    grid-column: span 2; }
+  .fotos .img4 {
+    grid-column: span 2; }
+  .fotos .img5 {
+    grid-row: span 2; }
+  .fotos .img10 {
+    grid-row: span 2; }
+  .fotos .img12 {
+    grid-row: span 2; }
+  .fotos .ultima1 {
+    grid-row: span 2; }
+  .fotos .ultima3 {
+    grid-row: span 2; }
+
+.mepresento h2 {
+  text-align: center;
+  font-size: 30px;
+  color: gray;
+  text-decoration: underline; }
+
+.mepresento div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row-reverse; }
+  .mepresento div img {
+    width: 600px;
+    height: 400px; }
+  .mepresento div p {
+    text-align: center;
+    width: 600px;
+    height: 100%;
+    font-size: 20px;
+    border: 1px solid darkgray;
+    padding: 10px; }
+
+.serealiza h2 {
+  text-align: center;
+  font-size: 30px;
+  color: gray;
+  text-decoration: underline; }
+
+.serealiza .trabajos {
+  text-align: center;
+  list-style-type: circle;
+  list-style-position: inside;
+  font-size: x-large;
+  margin-bottom: 80px; }
+  .serealiza .trabajos a {
+    color: red; }
+    .serealiza .trabajos a:hover {
+      background-color: grey;
+      color: red;
+      border-radius: 10px;
+      transition: all 1s; }
+
+.cuadroforo {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 30px;
+  margin-bottom: 100px; }
+  .cuadroforo h3 {
+    color: gray;
+    text-decoration: underline;
+    margin: 60px; }
+
+#btn-post {
+  width: 70px;
+  height: 30px;
+  font-size: medium; }
+
+.formulario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 50px; }
+  .formulario .contactame {
+    width: 50%;
+    height: 300px;
+    padding: 30px; }
+    .formulario .contactame h4 {
+      color: gray;
+      text-decoration: underline;
+      font-size: x-large;
+      text-align: center;
+      padding: 10px;
+      margin-bottom: 40px; }
+    .formulario .contactame input {
+      width: 100%;
+      font-size: 18px;
+      background-color: transparent;
+      border: none;
+      border-bottom: 2px solid rgba(164, 164, 164, 0.59); }
+    .formulario .contactame textarea {
+      width: 100%;
+      font-size: 18px;
+      background-color: transparent;
+      border: none;
+      border-bottom: 2px solid rgba(164, 164, 164, 0.59); }
+    .formulario .contactame #enviar {
+      font-size: 18px;
+      background-color: rgba(164, 164, 164, 0.59);
+      border: 1px solid rgba(164, 164, 164, 0.59);
+      margin-top: 4px; }
+
+.mapa {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px; }
+  .mapa h4 {
+    color: gray;
+    text-decoration: underline;
+    margin: 40px;
+    font-size: x-large;
+    margin-top: 160px; }
+
+.zonascontacto h4 {
+  color: gray;
+  text-decoration: underline;
+  margin: 40px;
+  font-size: x-large;
+  text-align: center; }
+
+.zonascontacto .accordion {
+  text-align: center; }
+
+footer {
+  margin-top: 60px; }
+  footer .pie {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; }
+    footer .pie img {
+      width: 100px;
+      height: 100px;
+      border-radius: 20px; }
+    footer .pie .logo-fondo-completo {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex-wrap: wrap; }
+      footer .pie .logo-fondo-completo p:hover {
+        background-color: grey;
+        color: black;
+        border-radius: 10px;
+        transition: all 1s; }
+    footer .pie .redes {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      text-align: center;
+      flex-wrap: wrap; }
+      footer .pie .redes p:hover {
+        background-color: grey;
+        color: black;
+        border-radius: 10px;
+        transition: all 1s; }
+
+@media screen and (max-width: 830px) {
+  .mapeishon {
+    width: 600px;
+    height: 450px; } }
+
+@media screen and (max-width: 730px) {
+  .fotos {
+    background-color: rgba(211, 211, 211, 0.783);
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); }
+    .fotos .ultima3 {
+      grid-column: span 2; } }
+
+@media screen and (max-width: 625px) {
+  .slider {
+    width: 500px;
+    height: 300px;
+    margin: 50px auto 50px; }
+  .mepresento img {
+    width: 400px;
+    height: 200px; }
+  .mepresento p {
+    text-align: center;
+    width: 400px;
+    height: 100%;
+    font-size: 20px;
+    border: 1px solid darkgray;
+    padding: 10px; }
+  .comentarios-caja {
+    width: 400px; }
+  .mapeishon {
+    width: 400px;
+    height: 250px; } }
+
+@media screen and (max-width: 500px) {
+  .titulo {
+    text-align: center;
+    font-size: 30px;
+    color: gray;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 50px; }
+    .titulo img {
+      width: 150px;
+      height: 150px; }
+  .slider {
+    width: 400px;
+    height: 200px;
+    margin: 50px auto 50px; }
+  .fotos {
+    display: flex;
+    flex-direction: column; }
+  .comentarios-caja {
+    width: 300px; }
+  .mapeishon {
+    width: 350px;
+    height: 250px; }
+  .pie {
+    display: flex;
+    flex-direction: column-reverse; } }
+
+@media screen and (max-width: 400px) {
+  .titulo {
+    text-align: center;
+    font-size: 30px;
+    color: gray;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 50px; }
+    .titulo img {
+      width: 130px;
+      height: 130px; }
+  .slider {
+    display: none; }
+  .mepresento img {
+    display: none; }
+  .trabajos {
+    text-align: center;
+    list-style-type: none;
+    font-size: x-large;
+    margin-bottom: 80px; }
+  .mapeishon {
+    width: 250px;
+    height: 250px; }
+  .pie {
+    display: flex;
+    flex-direction: column-reverse; }
+    .pie .redes {
+      display: flex;
+      flex-direction: column; } }

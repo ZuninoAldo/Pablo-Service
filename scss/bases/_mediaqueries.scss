@@ -1,0 +1,141 @@
+@media screen and (max-width:830px) {
+    .mapeishon {
+        width: 600px;
+        height: 450px;
+    }
+}
+
+@media screen and (max-width:730px) {
+    .fotos {
+        background-color: rgba(211, 211, 211, 0.783);
+        flex-wrap: wrap;
+        margin-bottom: 60px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        .ultima3 {
+            grid-column: span 2;
+        }
+    }
+}
+
+@media screen and (max-width:625px) {
+    .slider {
+        width: 500px;
+        height: 300px;
+        margin: 50px auto 50px;
+    }
+
+    .mepresento {
+        img {
+            width: 400px;
+            height: 200px;
+        }
+        p {
+            text-align: center;
+            width: 400px;
+            height: 100%;
+            font-size: 20px;
+            border: 1px solid darkgray;
+            padding: 10px;
+        }
+    }
+
+    .comentarios-caja{
+        width: 400px;
+    }
+
+    .mapeishon {
+        width: 400px;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .titulo {
+        text-align: center;
+        font-size: 30px;
+        color: gray;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 10px;
+        margin-bottom: 50px;
+        img {
+            width: 150px;
+            height: 150px;
+        }
+    }
+
+    .slider {
+        width: 400px;
+        height: 200px;
+        margin: 50px auto 50px;
+    }
+
+    .fotos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .comentarios-caja{
+        width: 300px;
+    }
+
+    .mapeishon {
+        width: 350px;
+        height: 250px;
+    }
+
+    .pie{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .titulo {
+        text-align: center;
+        font-size: 30px;
+        color: gray;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 10px;
+        margin-bottom: 50px;
+        img {
+            width: 130px;
+            height: 130px;
+    }
+}
+
+    .slider {
+        display: none;
+    }
+
+    .mepresento {
+        img {
+        display: none;
+        }
+    }
+
+    .trabajos {
+        text-align: center;
+        list-style-type: none;
+        font-size: x-large;
+        margin-bottom: 80px;
+    }
+
+    .mapeishon {
+        width: 250px;
+        height: 250px;
+    }
+
+    .pie {
+        display: flex;
+        flex-direction: column-reverse;
+        .redes {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}

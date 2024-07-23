@@ -1,47 +1,47 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');/* pasado*/
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+}/*pasado*/
 
 body {
     font-family: 'ubuntu', sans-serif;
-}
+}/*pasado*/
 
 a {
     text-decoration-line: none;
-}
+}/*pasado*/
 
 header {
     background-color: rgba(164, 164, 164, 0.59);
     width: 100%;
-}
+}/*pasado*/
 
 header nav img {
     width: 80px;
     height: 90px;
     border-radius: 20px;
-}
+}/*pasado*/
 
 .navbar-nav a {
     color: black;
     font-size: 25px;
-}
+}/*pasado*/
 
 .navbar-nav a:hover {
     background-color: black;
     color: white;
     transition: all 1s;
     border-radius: 10px;
-}
+}/*pasado*/
 
 .navbar-nav {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
-}
+}/*pasado*/
 
 /* Hasta aca el header */
 
@@ -53,7 +53,7 @@ header nav img {
     text-align: center;
     font-size: 80px;
     color: gray;
-}
+}/*pasado*/
 
 /* fin del h1 del index*/
 
@@ -64,24 +64,24 @@ header nav img {
     height: 400px;
     margin: 50px auto 50px;
     overflow: hidden;
-}
+}/*pasado*/
 
 .slider ul {
     display: flex;
     padding: 0;
     width: 100%;
     animation: slide 20s infinite alternate ease-in-out;
-}
+}/*pasado*/
 
 .slider li {
     width: 100%;
     height: auto;
     list-style: none;
-}
+}/*pasado*/
 
 .slider a {
     width: 100%;
-}
+}/*pasado*/
 
 @keyframes slide {
     0% { margin-left: 0; }
@@ -105,7 +105,7 @@ h2 {
     color: gray;
     padding: 10px;
     margin: 30px;
-}
+}/*pasado*/
 
 /* inicio "se realizan trabajos" */
 
@@ -115,18 +115,18 @@ h2 {
     list-style-position: inside;
     font-size: x-large;
     margin-bottom: 40px;
-}
+}/*pasado*/
 
 .hacemos ul li a {
     color: gray;
-}
+}/*pasado*/
 
 .hacemos ul li a:hover {
     background-color: black;
     color: ghostwhite;
     border-radius: 10px;
     transition: all 1s;
-}
+}/*pasado*/
 
 /* fin "se realizan trabajos" */
 
@@ -136,7 +136,7 @@ h2 {
     width: 200px;
     height: 200px;
     margin: 10px;
-}
+}/*pasado*/
 
 .clickear {
     display: flex;
@@ -144,12 +144,12 @@ h2 {
     flex-wrap: wrap;
     text-align: center;
     margin: 20px;
-}
+}/*pasado*/
 
 .clickear h4 {
     padding: 10px;
     font-size: 25px;
-}
+}/*pasado*/
 
 .zonas {
     display: flex;
@@ -157,7 +157,7 @@ h2 {
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
-}
+}/*pasado*/
 
 .conoce {
     display: flex;
@@ -165,20 +165,20 @@ h2 {
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
-}
+}/*pasado*/
 
 .clickear a {
     background-color: grey;
     border-color: grey;
     margin-bottom: 100px;
-}
+}/*pasado*/
 
 .clickear a:hover {
     background-color: red;
     border-color: red;
     color: black;
     transition: all 1s;
-}
+}/*pasado*/
 
 /* fin links a "contactos" y "foro" */
 
@@ -197,12 +197,12 @@ h2 {
     align-items: center;
     padding: 10px;
     margin-bottom: 50px;
-}
+} /*pasado*/
 
 .titulo img {
         width: 170px;
         height: 170px;
-}
+}/*pasado*/
 
 /* inicio segunda seccion de galeria*/
 
@@ -211,7 +211,7 @@ h2 {
     font-size: x-large;
     color: rgba(0, 0, 0, 0.717);
     padding: 60px;
-}
+}/*pasado*/
 
 .fotos img {
     padding: 20px;
@@ -219,7 +219,7 @@ h2 {
     height: 100%;
     border-radius: 80px;
     object-fit: cover;
-}
+}/*pasado*/
 
 .fotos {
     background-color: rgba(211, 211, 211, 0.783);
@@ -228,35 +228,35 @@ h2 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: 400px;
-}
+}/*pasado*/
 
 .img1 {
     grid-column: span 2;
-}
+}/*pasado*/
 
 .img4 {
     grid-column: span 2;
-}
+}/*pasado*/
 
 .img5 {
     grid-row: span 2;
-}
+}/*pasado*/
 
 .img10 {
     grid-row: span 2;
-}
+}/*pasado*/
 
 .img12 {
     grid-row: span 2;
-}
+}/*pasado*/
 
 .ultima1 {
     grid-row: span 2;
-}
+}/*pasado*/
 
 .ultima3 {
     grid-row: span 2;
-}
+}/*pasado*/
 
 /* fin segunda seccion de galeria */
 
@@ -271,7 +271,7 @@ h2 {
     font-size: 30px;
     color: gray;
     text-decoration: underline;
-}
+}/*pasado*/
 
 .mepresento div {
     display: flex;
@@ -279,12 +279,12 @@ h2 {
     align-items: center;
     flex-wrap: wrap;
     flex-direction: row-reverse;
-}
+}/*pasado*/
 
 .mepresento img {
     width: 600px;
     height: 400px;
-}
+}/*pasado*/
 
 .mepresento p {
     text-align: center;
@@ -293,7 +293,7 @@ h2 {
     font-size: 20px;
     border: 1px solid darkgray;
     padding: 10px;
-}
+}/*pasado*/
 
 /* termina primera section */
 
@@ -304,7 +304,7 @@ h2 {
     font-size: 30px;
     color: gray;
     text-decoration: underline;
-}
+}/*pasado*/
 
 .trabajos {
     text-align: center;
@@ -312,18 +312,18 @@ h2 {
     list-style-position: inside;
     font-size: x-large;
     margin-bottom: 80px;
-}
+}/*pasado*/
 
 .trabajos a {
     color: red;
-}
+}/*pasado*/
 
 .trabajos a:hover {
     background-color: grey;
     color: red;
     border-radius: 10px;
     transition: all 1s;
-}
+}/*pasado*/
 
 /* termina la segunda section */
 
@@ -338,19 +338,19 @@ h2 {
     flex-direction: column;
     padding: 30px;
     margin-bottom: 100px;
-}
+}/*pasado*/
 
 .cuadroforo h3 {
     color: gray;
     text-decoration: underline;
     margin: 60px;
-}
+}/*pasado*/
 
 #btn-post {
     width: 70px;
     height: 30px;
     font-size: medium;
-}
+}/*pasado*/
 
 /*?-------------- FORO ----------------*/
 
@@ -364,13 +364,13 @@ h2 {
     align-items: center;
     flex-wrap: wrap;
     margin-bottom: 50px;
-}
+}/*pasado*/
 
 .contactame {
     width: 50%;
     height: 300px;
     padding: 30px;
-}
+}/*pasado*/
 
 .formulario h4 {
     color: gray;
@@ -379,7 +379,7 @@ h2 {
     text-align: center;
     padding: 10px;
     margin-bottom: 40px;
-}
+}/*pasado*/
 
 .contactame input {
     width: 100%;
@@ -387,7 +387,7 @@ h2 {
     background-color: transparent;
     border: none;
     border-bottom: 2px solid rgba(164, 164, 164, 0.59);
-}
+}/*pasado*/
 
 .contactame textarea {
     width: 100%;
@@ -395,14 +395,14 @@ h2 {
     background-color: transparent;
     border: none;
     border-bottom: 2px solid rgba(164, 164, 164, 0.59);
-}
+}/*pasado*/
 
 .contactame #enviar {
     font-size: 18px;
     background-color: rgba(164, 164, 164, 0.59);
     border: 1px solid rgba(164, 164, 164, 0.59);
     margin-top: 4px;
-}
+}/*pasado*/
 
 /* termina el formulario */
 
@@ -414,7 +414,7 @@ h2 {
     align-items: center;
     flex-wrap: wrap;
     margin: 20px;
-}
+}/*pasado*/
 
 .mapa h4 {
     color: gray;
@@ -422,7 +422,7 @@ h2 {
     margin: 40px;
     font-size: x-large;
     margin-top: 160px;
-}
+}/*pasado*/
 
 /* termina la seccion de mapa */
 
@@ -434,11 +434,11 @@ h2 {
     margin: 40px;
     font-size: x-large;
     text-align: center;
-}
+}/*pasado*/
 
 .accordion {
     text-align: center;
-}
+}/*pasado*/
 
 /* termina la seccion de zonas */
 
@@ -448,14 +448,14 @@ h2 {
 
 footer{
     margin-top: 60px;
-}
+}/*pasado*/
 
 .pie {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-}
+}/*pasado*/
 
 .redes {
     display: flex;
@@ -463,38 +463,40 @@ footer{
     align-items: center;
     text-align: center;
     flex-wrap: wrap;
-}
+}/*pasado*/
 
 .logo-fondo-completo {
     display: flex;
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
-}
+}/*pasado*/
 
 .pie img {
     width: 100px;
     height: 100px;
     border-radius: 20px;
-}
+}/*pasado*/
 
 .redes p:hover {
     background-color: grey;
     color: black;
     border-radius: 10px;
     transition: all 1s;
-}
+}/*pasado*/
 
 .logo-fondo-completo p:hover {
     background-color: grey;
     color: black;
     border-radius: 10px;
     transition: all 1s;
-}
+}/*pasado*/
 
 /* Termina el footer*/
 
 /*? Agregar Media Queries */
+
+/*!YA TODO PASADO*/
 
 @media screen and (max-width:830px) {
     .mapeishon {
