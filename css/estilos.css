@@ -33,15 +33,15 @@ header {
   header nav a {
     color: black;
     font-size: 25px; }
+    header nav a:hover {
+      background-color: black;
+      color: white;
+      transition: all 1s;
+      border-radius: 10px; }
   header nav .navbar-nav {
     width: 100%;
     display: flex;
     justify-content: space-evenly; }
-    header nav .navbar-nav .nav-item:hover {
-      background-color: black;
-      color: red;
-      transition: all 1s;
-      border-radius: 10px; }
 
 .hero-title {
   text-align: center;
