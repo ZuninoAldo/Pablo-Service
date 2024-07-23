@@ -48,24 +48,7 @@ header {
   font-size: 80px;
   color: gray; }
 
-.slider {
-  width: 600px;
-  height: 400px;
-  margin: 50px auto 50px;
-  overflow: hidden; }
-  .slider ul {
-    display: flex;
-    padding: 0;
-    width: 100%;
-    animation: slide 20s infinite alternate ease-in-out; }
-    .slider ul li {
-      width: 100%;
-      height: auto;
-      list-style: none; }
-      .slider ul li a {
-        width: 100%; }
-
-/*keyframes del slider*/
+/*scss del carrousel*/
 h2 {
   text-align: center;
   font-size: 30px;
@@ -323,10 +306,6 @@ footer {
       grid-column: span 2; } }
 
 @media screen and (max-width: 625px) {
-  .slider {
-    width: 500px;
-    height: 300px;
-    margin: 50px auto 50px; }
   .mepresento img {
     width: 400px;
     height: 200px; }
@@ -356,10 +335,6 @@ footer {
     .titulo img {
       width: 150px;
       height: 150px; }
-  .slider {
-    width: 400px;
-    height: 200px;
-    margin: 50px auto 50px; }
   .fotos {
     display: flex;
     flex-direction: column; }
@@ -385,8 +360,6 @@ footer {
     .titulo img {
       width: 130px;
       height: 130px; }
-  .slider {
-    display: none; }
   .mepresento img {
     display: none; }
   .trabajos {

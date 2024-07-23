@@ -48,19 +48,40 @@
     <main>
         <h1 class="hero-title">Pablo Service</h1>
         <section>
-            <div class="slider">
-                <ul>
-                    <li><a href="./pages/galeria.html"><img src="./img/colocacion-mueble.jpg"
-                                alt="imagen de colocacion de mueble"></a></li>
-                    <li><a href="./pages/galeria.html"><img src="./img/sifon-bacha.jpg"
-                                alt="imagen de colocacion de bacha de pileta"></a></li>
-                    <li><a href="./pages/galeria.html"><img src="./img/pablo-trabajando.jpg"
-                                alt="pablo realizando una instalacion"></a></li>
-                    <li><a href="./pages/galeria.html"><img src="./img/colocacion-velador.jpg"
-                                alt="imagen de colocacion de velador"></a></li>
-                    <li><a href="./pages/galeria.html"><img src="./img/fondo-hornito.jpg"
-                                alt="imagen de la parte de atras de un horno electrico"></a></li>
-                </ul>
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="./img/instalacion-tv-1-NS.jpg" class="d-block w-100" alt="instalacion de soporte de tv">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="10000">
+                        <img src="./img/colocacion-velador-NS.jpg" class="d-block w-100" alt="colocacion de un velador">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="10000">
+                        <img src="./img/trabajo-en-proceso-NS.jpg" class="d-block w-100" alt="trabajo en proceso">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="10000">
+                        <img src="./img/fondo-hornito-NS.jpg" class="d-block w-100" alt="imagen de la parte trasera de un horno electrico">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="10000">
+                        <img src="./img/sifon-bacha-NS.jpg" class="d-block w-100" alt="imagen del sifon de una bacha recien cambiado">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="10000">
+                        <img src="./img/colocacion-mueble-NS.jpg" class="d-block w-100" alt="imagen de la colocacion de un mueble">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/pablo-trabajando-NS.jpg" class="d-block w-100" alt="imagen de pablo realizando una instalacion">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
         </section>
 

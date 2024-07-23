@@ -4,31 +4,7 @@
     color: gray;
 }
 
-.slider {
-    width: 600px;
-    height: 400px;
-    margin: 50px auto 50px;
-    overflow: hidden;
-
-    ul {
-        display: flex;
-        padding: 0;
-        width: 100%;
-        animation: slide 20s infinite alternate ease-in-out;
-
-        li {
-            width: 100%;
-            height: auto;
-            list-style: none;
-
-            a {
-                width: 100%;
-            }
-        }
-    }
-}
-
-/*keyframes del slider*/
+/*scss del carrousel*/
 
 h2 {
     text-align: center;
