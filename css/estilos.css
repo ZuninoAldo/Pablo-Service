@@ -39,7 +39,7 @@ header {
     justify-content: space-evenly; }
     header nav .navbar-nav .nav-item:hover {
       background-color: black;
-      color: white;
+      color: red;
       transition: all 1s;
       border-radius: 10px; }
 
