@@ -24,7 +24,8 @@ body {
     height: 170px; }
 
 header {
-  background-color: rgba(164, 164, 164, 0.59);
+  background: white;
+  background: linear-gradient(0deg, white 0%, #595d5e 100%);
   width: 100%; }
   header nav img {
     width: 80px;
