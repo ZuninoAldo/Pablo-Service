@@ -23,10 +23,11 @@ header {
             .nav-item {
 
                 a {
+                    transition: all 1s;
+
                     &:hover {
                         background-color: black;
                         color: white;
-                        transition: all 1s;
                         border-radius: 10px;
                     }
 

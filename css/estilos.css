@@ -38,11 +38,12 @@ header {
     width: 100%;
     display: flex;
     justify-content: space-evenly; }
-    header nav .navbar-nav .nav-item a:hover {
-      background-color: black;
-      color: white;
-      transition: all 1s;
-      border-radius: 10px; }
+    header nav .navbar-nav .nav-item a {
+      transition: all 1s; }
+      header nav .navbar-nav .nav-item a:hover {
+        background-color: black;
+        color: white;
+        border-radius: 10px; }
 
 .hero-title {
   text-align: center;
@@ -275,22 +276,26 @@ footer {
       flex-direction: column;
       align-items: center;
       flex-wrap: wrap; }
-      footer .pie .logo-fondo-completo p:hover {
-        background-color: grey;
-        color: black;
-        border-radius: 10px;
+      footer .pie .logo-fondo-completo p {
+        margin-bottom: 0;
         transition: all 1s; }
+        footer .pie .logo-fondo-completo p:hover {
+          background-color: grey;
+          color: black;
+          border-radius: 10px; }
     footer .pie .redes {
       display: flex;
       flex-direction: row;
       align-items: center;
       text-align: center;
       flex-wrap: wrap; }
-      footer .pie .redes p:hover {
-        background-color: grey;
-        color: black;
-        border-radius: 10px;
+      footer .pie .redes p {
+        margin-bottom: 0;
         transition: all 1s; }
+        footer .pie .redes p:hover {
+          background-color: grey;
+          color: black;
+          border-radius: 10px; }
 
 @media screen and (max-width: 830px) {
   .mapeishon {

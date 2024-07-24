@@ -22,11 +22,13 @@ footer {
             flex-wrap: wrap;
 
             p {
+                margin-bottom: 0;
+                transition: all 1s;
+
                 &:hover {
                     background-color: grey;
                     color: black;
                     border-radius: 10px;
-                    transition: all 1s;
                 }
             }
         }
@@ -39,11 +41,13 @@ footer {
             flex-wrap: wrap;
 
             p {
+                margin-bottom: 0;
+                transition: all 1s;
+
                 &:hover {
                     background-color: grey;
                     color: black;
                     border-radius: 10px;
-                    transition: all 1s;
                 }
             }
         }
