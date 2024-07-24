@@ -258,6 +258,8 @@ h2 {
   text-align: center; }
 
 footer {
+  background: white;
+  background: linear-gradient(180deg, white 0%, #595d5e 100%);
   margin-top: 60px; }
   footer .pie {
     display: flex;
