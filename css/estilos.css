@@ -136,9 +136,7 @@ h2 {
   .fotos .img12 {
     grid-row: span 2; }
   .fotos .ultima1 {
-    grid-row: span 2; }
-  .fotos .ultima3 {
-    grid-row: span 2; }
+    grid-column: span 2; }
 
 .mepresento h2 {
   text-align: center;
@@ -308,9 +306,7 @@ footer {
     flex-wrap: wrap;
     margin-bottom: 60px;
     display: grid;
-    grid-template-columns: repeat(2, 1fr); }
-    .fotos .ultima3 {
-      grid-column: span 2; } }
+    grid-template-columns: repeat(2, 1fr); } }
 
 @media screen and (max-width: 625px) {
   .mepresento img {
