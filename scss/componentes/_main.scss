@@ -24,7 +24,7 @@ h2 {
         li {
             a {
                 color: gray;
-                transition: all 1s;
+                @extend %transition;
 
                 &:hover {
                     background-color: black;
@@ -173,9 +173,7 @@ h2 {
     }
 
     .trabajos {
-        text-align: center;
-        list-style-type: circle;
-        list-style-position: inside;
+        @include liststyle (center, circle, inside);
         font-size: x-large;
         margin-bottom: 80px;
 

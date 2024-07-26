@@ -23,6 +23,9 @@ body {
     width: 170px;
     height: 170px; }
 
+.hacemos ul li a {
+  transition: all 1s; }
+
 header {
   background: white;
   background: linear-gradient(0deg, white 0%, #595d5e 100%);
@@ -64,8 +67,7 @@ h2 {
   font-size: x-large;
   margin-bottom: 40px; }
   .hacemos ul li a {
-    color: gray;
-    transition: all 1s; }
+    color: gray; }
     .hacemos ul li a:hover {
       background-color: black;
       color: ghostwhite;
