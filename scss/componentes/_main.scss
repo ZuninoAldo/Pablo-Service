@@ -203,12 +203,20 @@ h2 {
         text-decoration: underline;
         margin: 60px;
     }
-}
 
-#btn-post {
-    width: 70px;
-    height: 30px;
-    font-size: medium;
+    .formulario-foro {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        input {
+            margin: 10px;
+        }
+
+        .nombre-resena {
+            width: 100%;
+        }
+    }
 }
 
 .formulario {

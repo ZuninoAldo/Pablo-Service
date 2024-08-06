@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Descubre las experiencias de nuestra comunidad con el servicio de Pablo. Comparte tu historia desde la primera visita hasta la solución de tu problema. ¡Tu opinión cuenta!">
+    <meta name="description"
+        content="Descubre las experiencias de nuestra comunidad con el servicio de Pablo. Comparte tu historia desde la primera visita hasta la solución de tu problema. ¡Tu opinión cuenta!">
     <meta name="keywords" content=" reseñas, experiencias, Pablo Service, servicio, opinión.">
     <title>Pablo Service | Reseñas | Mantenimiento para tu hogar.</title>
     <link rel="icon" href="../img/favicon.ico" type="image/x-icon">
@@ -59,27 +60,12 @@
         </section>
         <section class="cuadroforo">
             <h3>Contame tu experiencia y compartí tus comentarios:</h3>
-            <div class="comentbox">
-                <div id="comment-container">
-                </div>
-                <textarea class="comentarios-caja" name="" id="new-comment" cols="60" rows="7"></textarea>
-                <br>
-                <br>
-                <button id="btn-post">Publicar</button>
-                <script>
-                    document.getElementById("btn-post").addEventListener("click", function () {
-                        const newComment = document.getElementById("new-comment").value;
-
-                        const commentContainer = document.getElementById("comment-container");
-                        const commentElement = document.createElement("p");
-                        commentElement.innerText = newComment;
-
-                        commentContainer.appendChild(commentElement);
-
-                        document.getElementById("new-comment").value = "";
-                    });
-                </script>
-            </div>
+            <form class="formulario-foro" name="resenas" method="post" data-netlify="true">
+                <input class="nombre-resena" type="text" name="nombre" placeholder="Nombre">
+                <textarea name="" id="resenas" class="comentarios-caja" cols="60" rows="7"
+                    placeholder="Redacte su Reseña"></textarea>
+                <input type="submit" name="enviar" id="enviar" value="Enviar Reseña" placeholder="Enviar Reseña">
+            </form>
         </section>
     </main>
     <footer id="fondo">

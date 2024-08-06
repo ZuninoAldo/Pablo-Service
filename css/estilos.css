@@ -194,11 +194,14 @@ h2 {
     color: gray;
     text-decoration: underline;
     margin: 60px; }
-
-#btn-post {
-  width: 70px;
-  height: 30px;
-  font-size: medium; }
+  .cuadroforo .formulario-foro {
+    display: flex;
+    align-items: center;
+    flex-direction: column; }
+    .cuadroforo .formulario-foro input {
+      margin: 10px; }
+    .cuadroforo .formulario-foro .nombre-resena {
+      width: 100%; }
 
 .formulario {
   display: flex;
